@@ -1,0 +1,12 @@
+.BannerCarousel {
+    width:100%;
+    height:300px;
+    margin: 0 auto;
+    margin-top: 15px;
+    position: relative;
+}
+.BannerCarousel_Img {
+    width:100%;
+    height:300px;
+    object-fit: cover ;
+}

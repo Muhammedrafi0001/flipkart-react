@@ -1,0 +1,110 @@
+.Product {
+
+    padding: 80px 10px 10px 20px;
+    width: 100%;
+    /* height: 100vh; */
+    background: rgb(247,246,246);
+    display: flex;
+}
+.Product_filters {
+    /* display: none; */
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 10px 10px rgb(204,202,202);
+    margin-right: 1rm;
+
+}
+.filter_head {
+   padding: 10px 0;
+   font-size: 20px;
+   border-bottom: 1px solid rgb(208,225,225);
+}
+.category {
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(228, 224, 224);
+
+}
+.filter_category_Head {
+
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.filter_category {
+    padding: 10px 20px 0px;
+    font-size: 15px;
+
+}
+.Price {
+    padding: 15px;
+    border-bottom: 1px solid rgb(211,204,204);
+
+}
+.price_Head {
+    text-transform: uppercase;
+
+}
+.pracerange {
+    width: 100%;
+    margin-top: 10px;
+}
+.price_input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.price_input >p {
+    font-size: 15px;
+    color: gray;
+}
+.priceBox {
+    width: 100px;
+    padding: 5px;
+
+}
+.brand_name {
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(207,205,205);
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+.Product_items {
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: 15px;
+
+}
+.totalresults {
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgb(208,225,225);
+
+
+}
+.sortBy {
+    padding: 15px 0;
+    display: flex;
+    border-bottom: 1px solid rgb(208,225,225);
+
+
+}
+.sortBy >p {
+    font-size: 15px;
+}
+.sortitems {
+   display: flex;
+   padding-left: 20px;
+}
+.sortitem {
+    list-style: none;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+
+}

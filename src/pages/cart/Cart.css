@@ -1,0 +1,106 @@
+.Cart_main {
+    padding: 90px;
+    width: 100%;
+    height: 100vh;
+    background: rgb(240,238,238);
+
+}
+.Cart_tabs {
+    background: white;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.flipkart,
+.grocery{
+    width: 30%;
+    padding: 20px 10px;
+    cursor: pointer;
+
+}
+.active {
+    border-bottom: 3px solid rgb(42,85,229);
+    color: rgb(42,85,229);
+
+}
+.Cart_itemss {
+    margin-top:1rem;
+    min-height:350px;
+    width: 100%;
+    background: white;
+    padding: 10px 0 36px;
+
+
+}
+.Cart_item {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+}
+.Cart_item_left {
+    width: 150px;
+
+}
+.Cart_item_left >img {
+    width: 100;
+    height: 150px;
+    object-fit: contain;
+}
+.Cart_item_right {
+    margin-left: 100px;
+
+}
+.Cart_item_right >p {
+    padding-top: 20px;
+}
+.Cart_NoItems {
+    text-align: center;
+
+}
+.Cart_NoItemsImg {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+
+}
+.Cart_cantainer {
+
+
+}
+.Cart_item_btn {
+    width: 180px;
+    padding: 18px 8px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    cursor: pointer;
+    background: #fb641b;
+    margin-top: 20px;
+
+}
+.Cart_NoItemsTitle {
+font-size: 18px;
+padding: 5px 0;
+font-weight: 400;
+}
+.Cart_NoItemsdes {
+    padding: 10px 0;
+    font-size: 12px;
+}
+.Cart_NoItemsBtn {
+    height: 40px;
+    width: 15%;
+    border: none;
+    outline: none;
+    background: #fb641b;
+    color: white;
+    cursor: pointer;
+}
